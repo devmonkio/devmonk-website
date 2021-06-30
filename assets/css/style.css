@@ -458,8 +458,8 @@ section {
   }
   .hero .hero-img {
     text-align: center;
-    margin-top: 80px;
-  }
+    margin-top: 50px;
+}
   .hero .hero-img img {
     width: 80%;
   }
@@ -1436,10 +1436,34 @@ section#about img {
 @media (max-width: 767px){
   .about .content {
     background-color: #feebce87;
-    padding: 50px;
+    padding: 25px;
     border-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-bottom: 30px;
+}
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+.header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+}
+.header.header-scrolled {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+}
+#services {
+    padding-bottom: 60px;
+}
+.venobox.btn-watch-video.vbox-item img {
+    width: 60%;
+    margin: 20px auto 30px;
+    text-align: center;
 }
 }
